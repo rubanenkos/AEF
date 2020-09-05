@@ -1,4 +1,4 @@
-**#1. Setting**
+**#1. Settings**
 
 ***WARNING:***
 Before run tests, place the source file (should have the following name  - "work.log") into the data source 
