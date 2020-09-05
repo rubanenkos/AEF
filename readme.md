@@ -1,9 +1,10 @@
-#1. Setting
-**WARNING:**
+**#1. Setting**
+
+***WARNING:***
 Before run tests, place the source file (should have the following name  - "work.log") into the data source 
 directory AEF/data/test_source
 
-#2. Installing required packages
+**#2. Installing required packages**
 
 a) Command line: run following command 
 
@@ -12,7 +13,7 @@ a) Command line: run following command
 b) PyCharm: Go to _File_ -> _Settings_ -> _Project: name_of_project_ -> _Project Interpreter_ ->
 click on + button -> install all package from requirements.txt
 
-#3. Installing Allure Reporting 
+**#3. Installing Allure Reporting**
 
 Linux: for debian-based repositories a PPA is provided:
 
@@ -45,7 +46,7 @@ For detailed information follow:
 https://docs.qameta.io/allure/#_installing_a_commandline
 
     
-#4. Running the tests and generating report
+**#4. Running the tests and generating report**
 
 To enable Allure listener to collect results during the test execution simply add 
 _--alluredir_ option and provide path to the folder where results should be stored. 
@@ -78,14 +79,14 @@ This is already enough to see the Allure report in one command:
 Which generates a report in temporary folder from the data found in the provided path and then creates
 a local Jetty server instance, serves generated report and opens it in the default browser.
 
-Example: 
+**Example:**
 
     pytest --alluredir allure-results/ --clean-alluredir
     allure generate -c --report-dir allure-report/
  
  Open file AEF/allure-report/index.html
 
-#5. Running the tests without Allure
+**#5. Running the tests without Allure**
 For running test without Allure reporting use following command:
 
 a) Run all existed tests:
