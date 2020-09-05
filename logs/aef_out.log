@@ -1,0 +1,403 @@
+2020-09-06 01:30:27 [    INFO] Extraction of data from log file
+2020-09-06 01:30:27 [    INFO] Load data to database
+2020-09-06 01:30:27 [    INFO] Start test for file: 7318e6c5-71ea-43d0-be6e-fdbafb135050.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: a9ee3233-9e2e-48cd-b774-ef80ad49f62f.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 2e695f17-77b0-4195-9e7f-07f7b6b755f9.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: b5bca328-221b-4015-a3ae-d0db8655927f.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: b1c825b7-8f4e-4c42-be32-d913c7a425e3.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 98c6627c-7980-4277-8f3f-e15f05914a91.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 3c6b02f8-8692-4099-8926-5296e5deb95e.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 772f2221-02a3-4fb3-9594-e2cdf7c0a8f2.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: eced15e5-eab1-4309-bf3b-2d343df9a0ed.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 7fa94ce5-efcf-4b83-98f1-0924364527ca.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: df3819f9-1537-4714-85f5-074effc72a2e.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: b63123eb-4d39-4bd4-b052-59dc2a0bc01b.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 264770c2-e1de-49d2-9b3b-69b079c99b24.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 5cb47b45-972a-4f9f-991b-a1334a3a02e6.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: cc648e12-d5fa-49b4-be36-b9c4a0ace1b1.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 63852cfb-6a46-4ef6-b193-eadec6bfd10e.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: e2c0ef26-30cf-42b6-9807-ba752cff2c05.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 411ebf44-c7ca-4f1a-8466-a7247fd8afa4.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 3498d1b7-55c5-4f7d-99de-e5aad0d33d57.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: af3fdac5-529a-4849-a5a8-80b67e024351.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: f9bccb7c-89b8-44fd-a1da-8ddd6c0a296c.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 28618d1a-8a4a-45db-b16e-03dcf995e9a6.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 17ddbdc1-3822-4f3e-9b29-e2351a023ade.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 4074d077-b2b4-46b4-9e69-96b62bd3f51b.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: c77788a0-0439-4412-add0-a48ad380c1ce.clean
+2020-09-06 01:30:27 [    INFO] List of validation for 'Clean' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 2 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is CLEAN
+2020-09-06 01:30:27 [    INFO] Validate the file is not removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: b149f3e1-7826-48d2-b27c-fc879d8344ae.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: b57cdd0a-473a-4798-943d-2cccaa0b814d.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 8e68b858-4056-40f3-9192-cafa1b93ff41.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 9ee298b5-5534-4efb-a76c-7d0c736950da.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 5194c69b-040c-4ad7-b4f3-e97a554f338e.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 9005df35-b41d-496d-9412-f3d8654c4ea9.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 2e0bb6b3-ea01-4fb8-854f-6f34b18f501e.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 40178b96-9944-4b1c-9524-2fb69d6812f2.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:27 [    INFO] Start test for file: 8f710252-ae3f-489f-a04c-ec981020b9ec.dirty
+2020-09-06 01:30:27 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:27 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:27 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:27 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:27 [    INFO] Validate the file is removed
+2020-09-06 01:30:27 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: e25b2191-104b-45e9-8452-0c7792622d68.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: d4ae7f0e-6f91-48b0-902b-f689f7917587.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: f2bbdd74-2a38-4ef8-bd1e-322f4bce99f7.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 0a26dc8b-cddc-4940-b36d-bf81807c1f0c.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 534dae73-e44e-4510-9fbc-1cdfd51f9a13.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: ca3538fb-973d-411d-940a-775498b4da04.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: eb0faf6d-224e-43d6-955e-80904c116149.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 6be45f8e-00a0-4726-b68a-9beb3abb56cd.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 6872dd56-dd88-4682-93dc-801e46eba177.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 9e256dff-dbd2-4bd0-9178-9b28175e1eb0.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 43ca9ef9-2192-4750-98a2-b7427ee20b32.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 8f686d2d-da88-4271-a434-1734adecfec3.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 899586eb-0ccb-4085-b739-b72b25a32cd3.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: f23bd9f4-d6b0-473a-b4f1-44938788fb4a.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: 36e5371b-7666-448c-b97c-58afeece8406.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Start test for file: aa8db885-2a6f-4bc3-b1f5-9c44efe401e8.dirty
+2020-09-06 01:30:28 [    INFO] List of validation for 'Dirty' files:
+2020-09-06 01:30:28 [    INFO] Validate there is at least 3 records for the file
+2020-09-06 01:30:28 [    INFO] Validate the first action for file is ADDED
+2020-09-06 01:30:28 [    INFO] Validate the second action for file is DIRTY
+2020-09-06 01:30:28 [    INFO] Validate the file is removed
+2020-09-06 01:30:28 [    INFO] Validate the file does not have error action
+
+2020-09-06 01:30:28 [    INFO] Clear database
