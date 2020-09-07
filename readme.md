@@ -1,7 +1,7 @@
 **#1. Settings**
 
 ***WARNING:***
-Before run tests, place the source file (should have the following name  - "work.log") into the data source 
+Before running tests, place the source file (should have the following name  - "work.log") into the data source 
 directory AEF/data/test_source
 
 **#2. Installing required packages**
@@ -79,7 +79,15 @@ This is already enough to see the Allure report in one command:
 Which generates a report in temporary folder from the data found in the provided path and then creates
 a local Jetty server instance, serves generated report and opens it in the default browser.
 
-**Example:**
+**Examples:**
+a)
+
+    pytest --alluredir allure-results/ --clean-alluredir
+    allure serve allure-results
+ 
+ Wait for the report is running in the default browser
+
+b)
 
     pytest --alluredir allure-results/ --clean-alluredir
     allure generate -c --report-dir allure-report/
