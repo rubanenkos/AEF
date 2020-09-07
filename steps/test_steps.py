@@ -6,15 +6,19 @@ import utils.db_utils as db
 
 
 class TestSteps:
+    """Class for main steps the work flow"""
 
     @allure.step('Extract data for file')
     def get_data_for_file(self, file_name):
+        """Extracts existed data by file name"""
         connection = db.create_connection()
         records = db.execute_read_query(connection, db.SELECT_DATA.format("*", file_name))
         connection.close()
         return records
 
-    def _find_record_with_action(self, results, action):
+    @staticmethod
+    def _find_record_with_action(results, action):
+        """Verifies if exist certain action into data"""
         for i in results:
             if i[1] == action:
                 return True
@@ -22,10 +26,17 @@ class TestSteps:
 
     @allure.step('Verify clean file')
     def verify_clean_files(self, results):
+        """Verifies clean file. The following checks are carried out:
+        1) Validate there are at least 2 records for the file (ADDED+CLEAN)
+        2) Validate that the first action for file is ADDED
+        3) Validate that the second action for file is CLEAN
+        4) Validate that the file is not removed
+        5) Validate that the file does not have error action
+        """
         file_name = results[0][2]
         logging.info(f"List of validation for 'Clean' files:")
 
-        message_1 = f"Validate there is at least 2 records for the file"
+        message_1 = f"Validate there are at least 2 records for the file"
         with allure.step(message_1):
             logging.info(message_1)
             delayed_assert.expect(len(results) >= 2, f"There is not less than 2 records for Clean the file {file_name}")
@@ -56,10 +67,17 @@ class TestSteps:
 
     @allure.step('Verify dirty file')
     def verify_dirty_files(self, results):
+        """Verifies dirty file. The following checks are carried out:
+        1) Validate there are at least 3 records for the file(ADDED+DIRTY+REMOVED)
+        2) Validate that the first action for file is ADDED
+        3) Validate that the second action for file is DIRTY
+        4) Validate that the file is removed
+        5) Validate that the file does not have error action
+        """
         file_name = results[0][2]
         logging.info(f"List of validation for 'Dirty' files:")
 
-        message_1 = f"Validate there is at least 3 records for the file"
+        message_1 = f"Validate there are at least 3 records for the file"
         with allure.step(message_1):
             logging.info(message_1)
             delayed_assert.expect(len(results) >= 3, f"There not less 3 records for the file {file_name}")
