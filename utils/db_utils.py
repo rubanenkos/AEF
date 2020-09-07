@@ -1,17 +1,19 @@
 import logging
 import sqlite3
 from sqlite3 import Error
-from utils.constants import data_base_name
+from utils.constants import NameConstants
 
-CREATE_TABLE = """CREATE TABLE IF NOT EXISTS work_log
-(time TEXT NOT NULL, action TEXT NOT NULL, name TEXT NOT NULL, type TEXT NOT NULL);"""
-DELETE_TABLE = """DELETE FROM work_log;"""
-SELECT_DATA = """SELECT {} from work_log WHERE name='{}';"""
-SELECT_DISTINCT_DATA = """SELECT DISTINCT name from work_log WHERE type='{}';"""
-INSERT_LOG_DATA = """INSERT INTO `work_log` VALUES (?,?,?,?);"""
+WORK_TABLE = NameConstants.work_table_name.value
+CREATE_TABLE = """CREATE TABLE IF NOT EXISTS {}
+(time TEXT NOT NULL, action TEXT NOT NULL, name TEXT NOT NULL, type TEXT NOT NULL);""".format(WORK_TABLE)
+DELETE_TABLE = """DELETE FROM {};""".format(WORK_TABLE)
+SELECT_DATA = """SELECT {} from """ + WORK_TABLE + """ WHERE name='{}';"""
+SELECT_DISTINCT_DATA = """SELECT DISTINCT name from """ + WORK_TABLE + """ WHERE type='{}';"""
+INSERT_LOG_DATA = """INSERT INTO {} VALUES (?,?,?,?);""".format(WORK_TABLE)
 
 
 def executemany_query(connection, query, values):
+    """Execute query with multiple rows at once"""
     cursor = connection.cursor()
     try:
         cursor.executemany(query, values)
@@ -22,6 +24,7 @@ def executemany_query(connection, query, values):
 
 
 def execute_query(connection, query):
+    """Execute query with one rows at once"""
     cursor = connection.cursor()
     try:
         cursor.execute(query)
@@ -31,7 +34,8 @@ def execute_query(connection, query):
         logging.error(f"The error '{e}' occurred")
 
 
-def create_connection(path=data_base_name):
+def create_connection(path=NameConstants.data_base_name.value):
+    """Create DataBase connection"""
     connection = None
     try:
         connection = sqlite3.connect(path)
@@ -42,6 +46,7 @@ def create_connection(path=data_base_name):
 
 
 def execute_read_query(connection, query):
+    """Fetches all rows of a query result, returning a list"""
     cursor = connection.cursor()
     result = None
     try:
@@ -53,14 +58,16 @@ def execute_read_query(connection, query):
         logging.error(f"The error '{e}' occurred")
 
 
-def __format_results(incoming_data):
+def __format_results(incoming_data, serial_number=0):
+    """Retrives elements from incoming data by serial number"""
     result_list = []
     for i in incoming_data:
-        result_list.append(i[0])
+        result_list.append(i[serial_number])
     return result_list
 
 
 def get_unique_files_by_type(file_type):
+    """Gets unique file"""
     connection = create_connection()
     query = SELECT_DISTINCT_DATA.format(file_type)
     result = execute_read_query(connection, query)
@@ -70,6 +77,7 @@ def get_unique_files_by_type(file_type):
 
 
 def clear_table():
+    """Clear work table"""
     connection = create_connection()
     execute_query(connection, DELETE_TABLE)
     connection.close()
